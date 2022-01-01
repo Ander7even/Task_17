@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_17 //Обобщения
+namespace Task_17 //Обобщенные типы
 {
     class Program
     {
@@ -16,11 +16,6 @@ namespace Task_17 //Обобщения
 
             BankAccount<string> bankAccount2 = new BankAccount<string>("AB-12345", 1245.56, "Петров");
             bankAccount2.print();
-
-
-
-
-
 
             Console.ReadKey();
         }
